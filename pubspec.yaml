@@ -1,5 +1,7 @@
 name: cookiej
-description: A Weibo Client By Flutter.
+description: A third-party Weibo client built with Flutter, demonstrating social media app development patterns including feed browsing, user profiles, video playback, and theming.
+homepage: https://github.com/nwjq/cookiej
+repository: https://github.com/nwjq/cookiej
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -33,7 +35,7 @@ dependencies:
   extended_nested_scroll_view: ^0.4.0 #扩展的NestedScrollView配合pull_to_refersh 使用
   font_awesome_flutter: ^8.5.0 #图标包
   flutter_redux: ^0.6.0
-  redux: ^4.0.0 
+  redux: ^4.0.0
   path_provider: ^1.6.5 #使用文件夹路径之类的
   flutter_keyboard_visibility: ^3.2.1 #检测软键盘状态的插件
   multi_image_picker: ^4.7.13 #图片选择插件
@@ -49,14 +51,14 @@ dependencies:
 
 
   #可能会被替换的
-  extended_image: 
+  extended_image:
     git:
       url: https://gitee.com/ihearyou/extended_image_nwj.git
   extended_text_field: ^4.0.0
   hive: ^1.4.3  #一个轻量级的数据库
   hive_flutter: ^0.3.1
   sqflite: ^1.2.1
-  shared_preferences: ^0.5.6+2  
+  shared_preferences: ^0.5.6+2
   fluttertoast: ^4.0.0 #弹出消息工具
   flustars: ^0.2.6+1 #包含了一些通用工具类
   waterfall_flow: ^2.0.2 #展示瀑布流的widget
@@ -71,7 +73,7 @@ dev_dependencies:
   # build_runner: ^1.7.3
   # hive_generator: ^0.7.0+2
   build_runner: ^1.8.0
-  
+
 
 
 # For information on the generic Dart part of this file, see the
